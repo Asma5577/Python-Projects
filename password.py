@@ -12,7 +12,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #Easy Level
 password = ""
 
-#nr_letters=4
+#nr_letters = 4
 
 for char in range(0, nr_letters):
     password += random.choice(letters)
